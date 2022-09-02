@@ -14,7 +14,7 @@ module.exports = {
             if (comando) {
                 let embed = new Discord.EmbedBuilder()
                     .setTitle(`Comando \`${comando.name}\``)
-                    .setFooter({ text: `© desarrollado por dewstouh#1088 | 2022`, iconURL: `https://cdn.discordapp.com/avatars/282942681980862474/7ff4f4ae92af5feb0d258a71cdb0b060.png?size=4096` })
+                    .setFooter({ text: `© desarrollado por darix0f2 | 2022`, iconURL: `https://cdn.discordapp.com/avatars/282942681980862474/7ff4f4ae92af5feb0d258a71cdb0b060.png?size=4096` })
                     .setColor(client.color);
                 //condicionales
                 if (comando.desc) embed.addFields([{name: `✍ Descripción`, value: `\`\`\`${comando.desc}\`\`\``}]);
@@ -43,10 +43,9 @@ module.exports = {
             .setColor(client.color)
             .setDescription(`Bot Multifuncional en desarrollo por \`dewstouh#1088\``)
             .addFields([{name: `❓ **__¿Quién soy?__**`, value: `👋 Hola **${message.author.username}**, mi nombre es **__${client.user.username}__**\n🤯 Soy un BOT MULTIFUNCIONAL Incluyendo:\n> **ADMINISTRACIÓN\n> MODERACIÓN\n> MÚSICA**\n*y mucho más!*`}], )
-            .addFields([{name: `📈 **__ESTADÍSTICAS__**`, value: `⚙ **${client.commands.size} Comandos**\n📁 en **${client.guilds.cache.size} Servidores**\n📶 **\`${client.ws.ping}ms\` Ping**\n👤 desarrollado por **[dewstouh#1088](https://discord.gg/MBPsvcphGf)**`}], )
-            .addFields([{name: `✍ **__CÓDIGO PÚBLICO__**`, value: `[\`DESCARGA EL CÓDIGO GRATIS!\`](https://github.com/dewstouh/bot-del-canal)`}], )
+            .addFields([{name: `📈 **__ESTADÍSTICAS__**`, value: `⚙ **${client.commands.size} Comandos**\n📁 en **${client.guilds.cache.size} Servidores**\n📶 **\`${client.ws.ping}ms\` Ping**\n👤 desarrollado por **[darix0f2]**`}], )
             .setThumbnail(message.guild.iconURL({ dynamic: true }))
-            .setFooter({ text: `Página 1 / ${categorias.length+1}\n© desarrollado por dewstouh#1088 | 2022`, iconURL: `https://cdn.discordapp.com/avatars/282942681980862474/7ff4f4ae92af5feb0d258a71cdb0b060.png?size=4096` })
+            .setFooter({ text: `Página 1 / ${categorias.length+1}\n© desarrollado por darix0f2 | 2022` })
             let embeds_pages = [ayuda_embed];
 
             //por cada categoria, creamos un embed y lo empujamos en embeds_pages
@@ -58,7 +57,7 @@ module.exports = {
                     .setColor(client.color)
                     .setThumbnail(message.guild.iconURL({ dynamic: true }))
                     .setDescription(comandos_de_categoria.length >= 1 ? `>>> *${comandos_de_categoria.map(comando => `\`${comando.replace(/.js/, "")}\``).join(" - ")}*` : `>>> *Todavía no hay comandos en esta categoría...*`)
-                    .setFooter({ text: `Página ${index+2} / ${categorias.length+1}\n© desarrollado por dewstouh#1088 | 2022`, iconURL: `https://cdn.discordapp.com/avatars/282942681980862474/7ff4f4ae92af5feb0d258a71cdb0b060.png?size=4096` })
+                    .setFooter({ text: `Página ${index+2} / ${categorias.length+1}\n© desarrollado por darix0f2 | 2022` })
                 embeds_pages.push(embed)
             })
 
@@ -159,7 +158,7 @@ module.exports = {
                         .setColor(client.color)
                         .setThumbnail(message.guild.iconURL({ dynamic: true }))
                         .setDescription(comandos_de_categoria.length >= 1 ? `>>> *${comandos_de_categoria.map(comando => `\`${comando.replace(/.js/, "")}\``).join(" - ")}*` : `>>> *Todavía no hay comandos en esta categoría...*`)
-                        .setFooter({text: `© desarrollado por dewstouh#1088 | 2022`, iconURL: `https://cdn.discordapp.com/avatars/282942681980862474/7ff4f4ae92af5feb0d258a71cdb0b060.png?size=4096` })
+                        .setFooter({text: `© desarrollado por darix0f2  | 2022` })
 
                         embeds.push(embed)
                     }
