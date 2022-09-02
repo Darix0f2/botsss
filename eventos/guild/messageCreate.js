@@ -12,7 +12,7 @@ module.exports = async (client, message) => {
         embeds: [
             new Discord.EmbedBuilder()
             .setTitle(`✅ **Para ver mis comandos usa \`${data.prefijo}help\`!**`)
-            .setFooter({text: `© desarrollado por dewstouh#1088 | 2022`, iconURL: `https://cdn.discordapp.com/avatars/282942681980862474/7ff4f4ae92af5feb0d258a71cdb0b060.png`})
+            .setFooter({text: `© desarrollado por darix0f2 | 2022`})
             .setColor(client.color)
         ]
     })
