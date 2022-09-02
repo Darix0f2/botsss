@@ -1,7 +1,7 @@
 {
-    "token": "",
+    "token": "MTAxNTE5OTg0OTQ1MDMxOTg3NA.G_ydGb.1Q_HEMwXMOhoA0Yn_WO4nCAL_JTIeWO4O84JmM",
     "prefix": ">>",
-    "mongodb": "",
-    "ownerIDS": ["282942681980862474"],
-    "color": "#ff0000"
+    "mongodb": "mongodb+srv://dr:dr@bot.e83i0xk.mongodb.net/?retryWrites=true&w=majority",
+    "ownerIDS": ["868851539706523678"],
+    "color": "#ffffff"
 }
